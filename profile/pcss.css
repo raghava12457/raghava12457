@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #fff;
+    padding: 30px;
+    justify-content: space-between;
+    text-align: center;
+  }
+  #me{
+    object-position: right;
+   
+  }
