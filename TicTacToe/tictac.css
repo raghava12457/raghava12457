@@ -1,0 +1,63 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h1 {
+    position: fixed;
+    top:10px;
+    right:790px;
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .board {
+    position: fixed;
+    top:80px;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 10px;
+    grid-template-rows: repeat(3, 100px);
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    gap : 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+  }
+  .square:hover {
+    background-color: #eee;
+  }
+  .square {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 4rem;
+        cursor: pointer;
+        background-color: #fff;
+        border: 2px solid #000;
+  }
+  
+  .square.x::before {
+    content: "X";
+    color: #f00;
+    
+  }
+  
+  .square.o::before {
+    content: "O";
+    color: #0f0;
+    
+  }
+  
+  .status {
+    position: fixed;
+    top: 430px;
+    right:820px;
+    font-size: 24px;
+    margin-top: 20px;
+    color: #999;
+  }
+  
